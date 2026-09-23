@@ -1,0 +1,335 @@
+{
+  "Global mean": {
+    "rating": {
+      "name": "Global mean",
+      "rmse": 1.1082177304166754,
+      "mae": 0.9072652441093494,
+      "bias": -0.17868051741715374,
+      "bounded_rmse": 1.1082177304166754,
+      "bounded_mae": 0.9072652441093494,
+      "bounded_bias": -0.17868051741715374,
+      "n_out_of_range": 0,
+      "out_of_range_pct": 0.0,
+      "n_non_finite": 0,
+      "n_total": 307167
+    },
+    "ranking": {
+      "name": "Global mean",
+      "hit_rate@k": 0.006,
+      "ndcg@k": 0.0028356269975057455,
+      "mrr@k": 0.0018333333333333333,
+      "n_evaluated": 500,
+      "n_candidates": 1000,
+      "k": 10
+    },
+    "timing": {
+      "training_seconds": 0.0,
+      "prediction_seconds": 0.005939825000496057
+    },
+    "selected_choices": {
+      "ranking_tie_policy": "seeded random ordering"
+    }
+  },
+  "Genre content profile": {
+    "rating": {
+      "name": "Genre content profile",
+      "rmse": 1.0249661877602023,
+      "mae": 0.782880658663461,
+      "bias": -0.0235028979207062,
+      "bounded_rmse": 1.0248729241871801,
+      "bounded_mae": 0.7826123830161905,
+      "bounded_bias": -0.023763416776542694,
+      "n_out_of_range": 1075,
+      "out_of_range_pct": 0.34997249053446494,
+      "n_non_finite": 0,
+      "n_total": 307167
+    },
+    "ranking": {
+      "name": "Genre content profile",
+      "hit_rate@k": 0.024,
+      "ndcg@k": 0.011085322896227837,
+      "mrr@k": 0.007213492063492063,
+      "n_evaluated": 500,
+      "n_candidates": 1000,
+      "k": 10
+    },
+    "timing": {
+      "training_seconds": 0.01697086100011802,
+      "prediction_seconds": 0.02355945299996165
+    },
+    "selected_choices": {
+      "validation_fitted_beta": 0.5026547327321497
+    }
+  },
+  "Tag Genome content profile": {
+    "rating": {
+      "name": "Tag Genome content profile",
+      "rmse": 0.9873917056625182,
+      "mae": 0.7412106123687624,
+      "bias": 0.09330004324670359,
+      "bounded_rmse": 0.9867908133178135,
+      "bounded_mae": 0.7396975210264918,
+      "bounded_bias": 0.09180891950834041,
+      "n_out_of_range": 3738,
+      "out_of_range_pct": 1.216927599644493,
+      "n_non_finite": 0,
+      "n_total": 307167
+    },
+    "ranking": {
+      "name": "Tag Genome content profile",
+      "hit_rate@k": 0.122,
+      "ndcg@k": 0.0652638318638106,
+      "mrr@k": 0.04845,
+      "n_evaluated": 500,
+      "n_candidates": 1000,
+      "k": 10
+    },
+    "timing": {
+      "training_seconds": 0.3697786470002029,
+      "prediction_seconds": 0.49956215400015935
+    },
+    "selected_choices": {
+      "validation_fitted_beta": 1.6405605556355805
+    }
+  },
+  "User-based k-NN": {
+    "rating": {
+      "name": "User-based k-NN",
+      "rmse": 0.9627931010422514,
+      "mae": 0.7252653610364633,
+      "bias": 0.018842698932544207,
+      "bounded_rmse": 0.9596677016805067,
+      "bounded_mae": 0.719579316564955,
+      "bounded_bias": 0.013258367703348753,
+      "n_out_of_range": 8337,
+      "out_of_range_pct": 2.7141587475217066,
+      "n_non_finite": 0,
+      "n_total": 307167
+    },
+    "ranking": {
+      "name": "User-based k-NN",
+      "hit_rate@k": 0.132,
+      "ndcg@k": 0.07416569446393201,
+      "mrr@k": 0.05669444444444445,
+      "n_evaluated": 500,
+      "n_candidates": 1000,
+      "k": 10
+    },
+    "timing": {
+      "training_seconds": 0.0,
+      "prediction_seconds": 4786.579007079
+    },
+    "selected_choices": {
+      "top_k": 40,
+      "minimum_common_movies": 2,
+      "shrinkage": 10.0
+    }
+  },
+  "Movie-based k-NN": {
+    "rating": {
+      "name": "Movie-based k-NN",
+      "rmse": 1.0365535672116561,
+      "mae": 0.8024088553035938,
+      "bias": -0.12631027143047494,
+      "bounded_rmse": 1.0289774771179259,
+      "bounded_mae": 0.7971053378956893,
+      "bounded_bias": -0.13155686804700195,
+      "n_out_of_range": 2426,
+      "out_of_range_pct": 0.7897983832898716,
+      "n_non_finite": 0,
+      "n_total": 307167
+    },
+    "ranking": {
+      "name": "Movie-based k-NN",
+      "hit_rate@k": 0.018,
+      "ndcg@k": 0.008931484574877446,
+      "mrr@k": 0.006319047619047619,
+      "n_evaluated": 500,
+      "n_candidates": 1000,
+      "k": 10
+    },
+    "timing": {
+      "training_seconds": 0.0,
+      "prediction_seconds": 10.901731015999758
+    },
+    "selected_choices": {
+      "top_k": 40,
+      "minimum_common_raters": 2,
+      "shrinkage": 10.0
+    }
+  },
+  "Biased MF": {
+    "rating": {
+      "name": "Biased MF",
+      "rmse": 0.9120358691808921,
+      "mae": 0.6975629937475102,
+      "bias": -0.07714473144548666,
+      "bounded_rmse": 0.9119089705886658,
+      "bounded_mae": 0.6971719234482148,
+      "bounded_bias": -0.07745212026965546,
+      "n_out_of_range": 1054,
+      "out_of_range_pct": 0.34313581862634984,
+      "n_non_finite": 0,
+      "n_total": 307167
+    },
+    "ranking": {
+      "name": "Biased MF",
+      "hit_rate@k": 0.158,
+      "ndcg@k": 0.08768860520777463,
+      "mrr@k": 0.06648412698412699,
+      "n_evaluated": 500,
+      "n_candidates": 1000,
+      "k": 10
+    },
+    "timing": {
+      "training_seconds": 4073.1666098369997,
+      "prediction_seconds": 0.18443537700113666
+    },
+    "selected_choices": {
+      "selected_regularization": 0.02
+    }
+  },
+  "BPR-MF thresholded positives": {
+    "rating": {
+      "name": "BPR-MF thresholded positives",
+      "rmse": 1.0553661460032464,
+      "mae": 0.8366481962733302,
+      "bias": -0.045126996058796304,
+      "bounded_rmse": 1.0553661460032464,
+      "bounded_mae": 0.8366481962733302,
+      "bounded_bias": -0.045126996058796304,
+      "n_out_of_range": 0,
+      "out_of_range_pct": 0.0,
+      "n_non_finite": 0,
+      "n_total": 307167
+    },
+    "ranking": {
+      "name": "BPR-MF thresholded positives",
+      "hit_rate@k": 0.43,
+      "ndcg@k": 0.23962562358244485,
+      "mrr@k": 0.18170873015873013,
+      "n_evaluated": 500,
+      "n_candidates": 1000,
+      "k": 10
+    },
+    "timing": {
+      "training_seconds": 17534.568428829,
+      "prediction_seconds": 0.04752508899764507
+    },
+    "selected_choices": {
+      "positive_threshold": 3.5,
+      "dynamic_negatives_per_positive": 4,
+      "selected_regularization": 0.0025,
+      "selection_metric": "fixed_validation_ndcg@10",
+      "selected_validation_ndcg": 0.2486995350523498,
+      "regularization_tie_tolerance": 1e-12,
+      "regularization_tie_policy": "prefer stronger regularization",
+      "negative_draws_are_independent": true,
+      "negative_draws_may_repeat": true,
+      "affine_mapping": {
+        "slope": 0.2114372622787982,
+        "intercept": 3.2187962056475885
+      },
+      "rating_metrics_are_post_hoc": true
+    }
+  },
+  "Tag Genome weighted hybrid": {
+    "rating": {
+      "name": "Tag Genome weighted hybrid",
+      "rmse": 0.9534688092357388,
+      "mae": 0.7124644864156601,
+      "bias": 0.049106223212739504,
+      "bounded_rmse": 0.951904191288108,
+      "bounded_mae": 0.7091675285094037,
+      "bounded_bias": 0.0458517506301739,
+      "n_out_of_range": 5911,
+      "out_of_range_pct": 1.924360364231835,
+      "n_non_finite": 0,
+      "n_total": 307167
+    },
+    "ranking": {
+      "name": "Tag Genome weighted hybrid",
+      "hit_rate@k": 0.144,
+      "ndcg@k": 0.08111945590050387,
+      "mrr@k": 0.06214365079365079,
+      "n_evaluated": 500,
+      "n_candidates": 1000,
+      "k": 10
+    },
+    "timing": {
+      "training_seconds": 4468.363071657997,
+      "prediction_seconds": 0.0055452710039389785
+    },
+    "selected_choices": {
+      "validation_fitted_beta": 1.6405605556355805,
+      "validation_selected_alpha": 0.30000000000000004,
+      "alpha_grid": [
+        0.0,
+        0.1,
+        0.2,
+        0.30000000000000004,
+        0.4,
+        0.5,
+        0.6000000000000001,
+        0.7000000000000001,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "knn_confidence_fallback": "content when 0 usable neighbors"
+    }
+  },
+  "MF+BPR hybrid": {
+    "rating": {
+      "name": "MF+BPR hybrid",
+      "rmse": 0.9120358691808921,
+      "mae": 0.6975629937475102,
+      "bias": -0.07714473144548666,
+      "bounded_rmse": 0.9119089705886658,
+      "bounded_mae": 0.6971719234482148,
+      "bounded_bias": -0.07745212026965546,
+      "n_out_of_range": 1054,
+      "out_of_range_pct": 0.34313581862634984,
+      "n_non_finite": 0,
+      "n_total": 307167
+    },
+    "ranking": {
+      "name": "MF+BPR hybrid",
+      "hit_rate@k": 0.454,
+      "ndcg@k": 0.2587717314438386,
+      "mrr@k": 0.1995468253968254,
+      "n_evaluated": 500,
+      "n_candidates": 1000,
+      "k": 10
+    },
+    "timing": {
+      "training_seconds": 6.327212511001562,
+      "prediction_seconds": 0.013104471006954554
+    },
+    "selected_choices": {
+      "dual_headed": true,
+      "lambda_rating": 1.0,
+      "lambda_ranking": 0.30000000000000004,
+      "lambda_grid": [
+        0.0,
+        0.1,
+        0.2,
+        0.30000000000000004,
+        0.4,
+        0.5,
+        0.6000000000000001,
+        0.7000000000000001,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "rating_head_selection": "validation RMSE",
+      "ranking_head_selection": "validation NDCG@10",
+      "ranking_standardisation": "per-row z-score",
+      "bpr_affine": {
+        "slope": 0.2114372622787982,
+        "intercept": 3.2187962056475885
+      }
+    }
+  }
+}

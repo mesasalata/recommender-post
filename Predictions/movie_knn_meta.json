@@ -1,0 +1,10 @@
+{
+  "training_seconds": 0.0,
+  "prediction_seconds": 10.901731015999758,
+  "wall_predict": 0.5316001259998302,
+  "wall_rank": 10.370130889999928,
+  "reused": false,
+  "reused_model": false,
+  "loaded_from": [],
+  "computed_fresh": true
+}

@@ -1,0 +1,21 @@
+{
+  "training_seconds": 4468.363071657997,
+  "prediction_seconds": 0.0055452710039389785,
+  "wall_predict": 0.00050777100113919,
+  "wall_rank": 0.0013735910033574328,
+  "reused": true,
+  "reused_model": false,
+  "loaded_from": [
+    "genome_content_predictions.npy",
+    "user_knn_predictions.npy",
+    "user_knn_counts.npy",
+    "genome_content_ranking_scores.npy",
+    "user_knn_ranking_scores.npy",
+    "hybrid_val_content.npy (computed)",
+    "hybrid_val_userknn.npy (computed)",
+    "hybrid_val_counts.npy (computed)"
+  ],
+  "computed_fresh": false,
+  "validation_fitted_beta": 1.6405605556355805,
+  "validation_selected_alpha": 0.30000000000000004
+}

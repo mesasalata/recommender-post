@@ -1,0 +1,16 @@
+{
+  "training_seconds": 17534.568428829,
+  "prediction_seconds": 0.04752508899764507,
+  "wall_predict": 0.03377247299795272,
+  "wall_rank": 0.013752615999692352,
+  "reused": false,
+  "reused_model": false,
+  "loaded_from": [],
+  "computed_fresh": true,
+  "selected_regularization": 0.0025,
+  "selected_validation_ndcg": 0.2486995350523498,
+  "affine_mapping": {
+    "slope": 0.2114372622787982,
+    "intercept": 3.2187962056475885
+  }
+}
